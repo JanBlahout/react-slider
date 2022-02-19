@@ -14,7 +14,6 @@ function App() {
     setWidth(slider.current.scrollWidth - slider.current.offsetWidth);
   }, []);
 
-  console.log(images);
   return (
     <div className="App">
       <motion.div
